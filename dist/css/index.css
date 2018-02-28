@@ -1,0 +1,79 @@
+*{
+	font-family: 'Marvel';
+}
+body{
+		background: #ecf0f1;
+}
+.header{
+	float:right;
+	width: 84.5%;
+	height: 55px;
+	color: #fff;
+	padding: 3px;
+	text-transform: capitalize;
+	background-color: #F50057;
+}
+.header h1{
+	float: left;
+}
+.header h3{
+	padding: 5px;
+	float: right;
+}
+.m-left{
+	float: left;
+	position: fixed;
+	width: 15.5%;
+	height: 700px;
+	background-color: #651FFF; 
+}
+.m-left a{
+	width: 100%;
+	float: left;
+	font-size: 130%;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: capitalize;
+	padding: 10px;
+	transition: all 0.5s;
+}
+.m-left a:hover{
+	border-left: 10px solid#283593;
+	background-color: #6200EA;
+}
+.content{
+	float: right;
+	width: 83.5%;
+	height: auto;
+	margin-top: 0.5%;
+	margin-right: 0.5%;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.75);
+	border-top: 3px solid#f1c40f;
+}
+.content h1{
+	font-weight: bold;
+}
+.btn-r{
+	float: right;
+}
+.s-login{
+	text-align: center;
+	height: auto;
+	margin: 200px auto;
+}
+.s-login span{
+	font-size: 100px;
+}
+.modal-skin{
+	display: none;
+	width: 100%;
+	overflow: auto;
+	height: 100%;
+	z-index: 500;
+	position: fixed;
+	background-color: rgba(0,0,0,0.6);
+}
